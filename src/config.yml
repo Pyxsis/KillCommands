@@ -1,0 +1,19 @@
+
+# ▒█░░▒█ █▀▀█ █▀▀█ ░▀░ █▀▀█ █▀▀▄ █░░ █▀▀ █▀▀ 
+# ░▒█▒█░ █▄▄█ █▄▄▀ ▀█▀ █▄▄█ █▀▀▄ █░░ █▀▀ ▀▀█ 
+# ░░▀▄▀░ ▀░░▀ ▀░▀▀ ▀▀▀ ▀░░▀ ▀▀▀░ ▀▀▀ ▀▀▀ ▀▀▀ 
+# Some messages support:
+# %deadplayername - dead's name (if player)
+# %deadplayerdisplayname - dead's displayname (if player)
+# %killername - killer's name
+# %deadentityname - dead's name
+# %currentkillamount - killer's current streak
+# %killerhealth - killer's current health
+# %killerlocation - killer's current location
+# color codes are not supported except in the Current Streak Format, since commands to execute are handled by other plugins!
+
+# Does not support any "dead" variables*
+Current streak format: '&5%killername&8 // &7Health: &d%killerhealth &8// &7Current Streak: &d%currentkillamount'
+
+# Self explanatory
+Should streaks be cleared when the killer logs out: false

@@ -1,0 +1,25 @@
+name: KillCommands
+main: me.reparo.killcommands.KillCommands
+description: Execute commands when x kills are met
+author: Reparo
+version: beta-0.1
+
+commands:
+    currentstreak:
+        usage: /<command> 
+        aliases: [cs, kills, mykills, seekills, sk, mk]
+        description: See your, or another's, kills!
+    SetUpNewKillConfig:
+        usage: /<command>
+        description: Set the defaults for a new kill count to be added to the config
+
+permissions:
+    killcommands.killstreak:
+        description: View your own killstreak (/currentstreak)
+        default: OP
+    killcommands.killstreak.other:
+        description: View others killstreak (/currentstreak)
+        default: OP
+    killcommands.setupnewkillconfig:
+        description: Access to /setupnewkillconfig
+        default: OP
